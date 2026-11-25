@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sizzle &amp; Serve — Lunch Rush</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #2b1d10; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #f6e3c2; }
+  #help { color: #e8c9a0; font: 13px "Trebuchet MS", Verdana, sans-serif; text-align: center; padding: 8px 0 12px; }
+  #help b { color: #ffd76a; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="help"><b>WASD / arrows</b> move &nbsp;·&nbsp; <b>E</b> grab &amp; use &nbsp;·&nbsp; <b>Q</b> serve at the window &nbsp;·&nbsp; click a station to walk there &nbsp;·&nbsp; cook before orders walk out!</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
